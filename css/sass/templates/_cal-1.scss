@@ -1,0 +1,99 @@
+.cal-1 {
+    @include flex();
+    padding-top: 40px;
+}
+
+.cal-1 > div:first-child {
+    width: 61%;
+}
+
+.cal-1 > div:last-child {
+    @include flex();
+    width: 40%;
+    padding-left: 40px;
+}
+
+.cal-1 > div:first-child > h4 {
+    @extend .padding-l-40;
+    font-size: 28px;
+    line-height: 48px;
+    font-weight: 300;
+}
+
+.cal-1 > div:first-child > div.line {
+    // margin-left: 40px;
+    width: 36px;
+    height: 2px;
+    background: $red;
+}
+
+.cal-1 > div:first-child > p {
+    @extend .padding-l-40;
+    margin-top: 16px;
+    color: $grey;
+}
+
+.cal-spends {
+    @include flex();
+    margin-top: 8px;
+    // background: rgba(245, 245, 245, 0.5);
+    padding: 16px 85px 16px 40px;
+    justify-content: space-between;
+}
+
+.cal-spends > div > p {
+    font-weight: 500;
+    color: $fade-blue;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.cal-spends > div:nth-child(2) > h2 {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    color: $fade-blue;
+}
+
+.total-benefits > div:first-child {
+    flex: 3;
+}
+
+.total-benefits > div:last-child {
+    text-align: center;
+    min-width: 195px;
+    flex: 2;
+}
+
+.total-benefits > div:first-child > p {
+    color: #FFF;
+}
+
+.total-benefits > div:first-child > div input {
+    margin-top: 24px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 64px;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    padding-bottom: 14px;
+    background: transparent;
+    border-radius: 0;
+    color: #FFF;
+    max-width: 210px;
+    width: fit-content;
+}
+
+.total-benefits > div:last-child > img {
+    max-width: 180px;
+    width: 100%;
+}
+
+.total-benefits > div:last-child > p {
+    margin-top: 6px;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #FFF;
+}

@@ -1,0 +1,150 @@
+.cal-2 {
+    position: relative;
+}
+
+.cal-2 > div {
+    position: absolute;
+    top: 45%;
+    left: -86px;
+    transform: rotate(-90deg);
+}
+
+.cal-2 > div > p {
+    line-height: 16px;
+    color: $fade-grey;
+}
+
+
+.cal-2 > table {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.cal-2 > table > tbody tr {
+    height: 48px;
+}
+
+.cal-2 > table > tbody tr:not(:last-child) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.cal-2 > table > tbody td {
+    height: 68px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.no-bottom {
+    border-bottom: none !important;
+}
+
+.t-headings > th {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.t-headings > th > p {
+    font-weight: 500;
+}
+
+.t-headings > th:first-child > p {
+    color: $fade-blue;
+    text-align: left;
+}
+
+.t-headings > th:nth-child(3) > p, .t-headings > th:last-child > p {
+    color: #FFF;
+    text-align: center;
+}
+
+.rewards > td:first-child > div {
+    @include flex();
+}
+
+.rewards > td > div img {
+    max-height: 40px;
+}
+
+.rewards > td > div p.upper {
+    font-weight: 500;
+    color: $fade-blue;
+}
+
+.rewards > td > div p.lower {
+    font-size: 14px;
+    line-height: 16px;
+    color: $fade-grey;
+    opacity: 0.8;
+}
+
+.rewards > td:nth-child(2), .rewards > td:last-child {
+    @include flex();
+}
+
+.rewards > td:nth-child(2) > input {
+    text-align: left;
+    padding-right: 56px;
+    padding-left: 6px;
+    background: transparent;
+}
+
+.rewards > td:nth-child(3) > p {
+    text-align: center;
+    color: #FFF;
+}
+
+.rewards > td:last-child {
+    justify-content: center;
+}
+
+.rewards > td:last-child > p {
+    color: #FFF;
+}
+
+.t-img-1 {
+    @include flex(column);
+    justify-content: center;
+}
+
+.b-seperator {
+    border-bottom: 2px solid rgba(242, 113, 125, 0.5) !important;
+}
+
+.cal-3 {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.cal-3 > p {
+    font-size: 11px;
+    line-height: 15px;
+    color: $fade-grey;
+    opacity: 0.8;
+    width: 59%;
+    margin: 16px 0;
+}
+.cal-3 > a{
+    position: absolute;
+    top: 95%;
+    transform: translateY(-50%);
+    right: 150px;
+    color: #FFF;
+    text-decoration: underline;
+    font-size: 14px;
+    opacity: .9;
+}
+
+.first-heading {
+    position: relative;
+    min-width: 380px;
+}
+
+.first-heading > p {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: max-content;
+    transform: translateY(-50%);
+}
+.other > div > p{
+    line-height: 175px;
+} 

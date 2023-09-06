@@ -1,0 +1,16 @@
+{
+  "name": "onething",
+  "version": "2.0.0",
+  "description": "onething Main Website",
+  "license": "Individual",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-concat": "latest",
+    "grunt-contrib-sass": "latest",
+    "grunt-contrib-imagemin": "latest",
+    "grunt-autoprefixer": "latest",
+    "grunt-contrib-cssmin": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch": "latest"
+  }
+}
